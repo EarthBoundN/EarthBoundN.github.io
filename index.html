@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Earthbound | Nintendo</title>
+	<link rel="icon" type="image/jpg" href="http://pixelartmaker.com/art/dc244a79f5c03de.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body{
+			background-image: url("GDP_Earthbound.jpg");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			color: white;
+		}
+		a{
+			color: yellow;
+		}
+		#loader{
+			height: 200px;
+			width: 600px;
+			margin-top: 90px;
+			margin-left: 375px;
+			font-size: 25px;
+			animation-name: loading;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+
+		}
+		@keyframes loading{
+            
+		}
+			ul{
+			list-style-type: none;
+			background-image: linear-gradient(to right, red, blue, green, orange);
+			padding: 30px;
+		}
+		li{
+			display: inline;
+			color: white;
+		}
+		.bruh{
+			float: right;
+		}
+		.go{
+			text-decoration: none;
+			padding: 30px;
+			color: white;
+		}
+		.go:hover{
+			background-color: lightgrey;
+		}
+		.omg{
+
+		}
+		#lucas{
+			background-color: lightblue;
+		}
+		.fa{
+			font-size: 50px;
+			text-decoration: none;
+			color: blue;
+		}
+
+	</style>
+</head>
+<body onload="book()">
+	<div id="loader"><br><br><br><br><br><p><center><img src="DD3.gif"><br>Loading, Please Wait...</center></p></div>
+	<div id="webpage" class="animation" style="display: none;">
+		<ul>
+			<li class="omg">Earthbound</li>
+			<li class="bruh"><a href="https://www.nintendo.com/amiibo/detail/ness-amiibo-super-smash-bros-series/" class="go">EarthBound amiibo</a></li>
+			<li class="bruh"><a href="Buy.html" class="go">Buy</a></li>
+			<li class="bruh"><a href="Consoles.html" class="go">Consoles</a></li>
+			<li class="bruh"><a href="index.html" class="go">Home</a></li>
+
+		</ul>
+		<center>
+	<h1>Bizarre aliens roam the Earth! Can four average kids save the world from certain destruction?</h1>
+	<p>Intergalactic terror strikes the small town of Onett as a blazing extraterrestrial object crashes in the night! The Earth now faces imminent destruction by the universal evil threat, Giygas. A courageous boy named Ness and his three friends vow to save the planet from hideous destruction. Battle hundreds of off-the-wall monsters, roaming dinosaurs, and alien enemies. Explore exotic locations like Saturn Valley, Dusty Dunes Desert, and Deep Darkness. The ultimate test lies in the impending encounter with the all-powerful Giygas!<br><img src="http://pixelartmaker.com/art/dc244a79f5c03de.png"><br><br><br>
+		<button onclick="ninten()">Show More Details</button><div id="ness" style="display: none;">EarthBound (known as Mother 2: Giygas Strikes Back in Japan) [nb 1] is a role-playing video game developed by Ape Inc. and HAL Laboratory and published by Nintendo for the Super Nintendo Entertainment System. The second entry in the Mother series, it was first released in Japan in August 1994, and in North America in June 1995.<br> As Ness and his party of four, the player travels the world to collect melodies from eight Sanctuaries in order to defeat the evil alien force Giygas.<br>EarthBound is created by <a href="https://www.google.com/search?q=Shigesato+Itoi&source=lmns&bih=695&biw=1366&safe=images&hl=en&ved=2ahUKEwjhy4-FrPzpAhVU_DgGHTPPC3oQ_AUoAHoECAEQAA">Shigesato Itoi</a>.</p></div>
+	<img src="Annotation 2020-06-12 190256.png">
+	<img src="Annotation 2020-06-12 193248.png">
+	<div id="lucas">
+		<iframe width="520" height="415"
+     		src="https://www.youtube.com/embed/vGOEMCG2Ll4">
+		</iframe>
+		<img src="561x419_WiiU_Earthbound_SS_vB_01.jpg">
+		<img src="561x419_WiiU_Earthbound_SS_vB_02.jpg">
+		<img src="561x419_WiiU_Earthbound_SS_vB_03.jpg">
+		<img src="561x419_WiiU_Earthbound_SS_vB_04.jpg">
+		<img src="561x419_WiiU_Earthbound_SS_vB_05.jpg">
+	</div>
+</center>
+
+</div>
+<div id="bruh" style="display: none;">
+<a href="https://www.facebook.com/nintendo" class="fa fa-facebook"></a>
+<a href="https://www.twitter.com/NintendoAmerica" class="fa fa-twitter"></a>
+<a href="https://www.youtube.com/nintendo" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/nintendo" class="fa fa-instagram"></a>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+	function book(){
+		setTimeout(showText, 3000);
+	}
+	function showText(){
+		document.getElementById('loader').style.display="none";
+		document.getElementById('webpage').style.display="block";
+		document.getElementById('bruh').style.display="block";
+		document.getElementById('bruh').style.textAlign="center";
+
+	}
+	function ninten(){
+		document.getElementById('ness').style.display="block";
+	}
+</script>
