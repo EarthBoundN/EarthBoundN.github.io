@@ -64,10 +64,6 @@
 		}
 		#lo{
 			background-image: url("https://66.media.tumblr.com/7e5306be9798190e256a9ccd130e4391/tumblr_o1ykv2uO2r1rfk6fzo2_500.gif");
-			background-attachment: fixed;
-			background-size: cover;
-			display: block;
-			
 		}
 
 	</style>
@@ -112,7 +108,8 @@
 </html>
 <script type="text/javascript">
 	function book(){
-		setTimeout(showText, 3000);
+		setTimeout(showText, 2000);
+		document.getElementById('lo').style.display="block";
 	}
 	function showText(){
 		document.getElementById('lo').style.display="none";
