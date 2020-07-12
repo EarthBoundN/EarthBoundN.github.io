@@ -16,7 +16,6 @@
 			color: yellow;
 		}
 		#loader{
-			display: block;
 			height: 200px;
 			width: 600px;
 			margin-top: 90px;
@@ -62,14 +61,13 @@
 			text-decoration: none;
 			color: blue;
 		}
-		#lo{
-			background-image: url("https://66.media.tumblr.com/7e5306be9798190e256a9ccd130e4391/tumblr_o1ykv2uO2r1rfk6fzo2_500.gif");
-		}
+		#lol{
+			height: 100%;
 
 	</style>
 </head>
 <body onload="book()">
-	<div id="loader"><div id="lo"></div></div>
+	<div id="loader"><img src="https://66.media.tumblr.com/7e5306be9798190e256a9ccd130e4391/tumblr_o1ykv2uO2r1rfk6fzo2_500.gif" id="lol"></div>
 	<div id="webpage" class="animation" style="display: none;">
 		<ul>
 			<li class="omg">Earthbound</li>
@@ -109,10 +107,8 @@
 <script type="text/javascript">
 	function book(){
 		setTimeout(showText, 2000);
-		document.getElementById('lo').style.display="block";
 	}
 	function showText(){
-		document.getElementById('lo').style.display="none";
 		document.getElementById('loader').style.display="none";
 		document.getElementById('webpage').style.display="block";
 		document.getElementById('bruh').style.display="block";
